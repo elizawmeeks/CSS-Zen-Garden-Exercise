@@ -1,0 +1,141 @@
+/*Body Styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: white;
+	line-height: 1.6;
+	font-size: 1em;
+}
+
+.page-wrapper {
+	width: 90%;
+	max-width: 900px;
+	margin: 0 auto;
+	border: 2px solid #202020;
+	background-color: #BFBFBF;
+}
+
+h1 {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: lighter;
+	font-size: 5em;
+	margin: 0;
+	padding: 400px 0 50px 0;
+	text-shadow: 5px 5px 5px black;
+	height: 100px;
+	background-image: linear-gradient(transparent,#3F3F3F);
+}
+
+h2 {
+	padding: 0;
+	padding-top: 50px;
+	position: absolute;
+	top: 460px;
+	left: 12.5%; /*25%/2*/
+	margin: 0 auto;
+	width: 75%;
+	text-shadow: 5px 5px 5px black;
+}
+
+h3 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+p {
+	margin: 0 auto;
+	width: 90%;
+}
+
+/*Header, image Public Domain AD White historic photographs*/
+
+header {
+	background-image: url("images/Versailles-Courtyard.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 550px;
+	color: white /*#3C2B17*/;
+	text-align: center;
+}
+
+/*Summary, Dark Grey Block*/
+.summary {
+	background-color: #3F3F3F;
+	color: white;
+	padding: 15px 0;
+}
+
+.summary p a {
+	color: #BFBFBF;
+	text-decoration: none;
+}
+
+.summary p a:hover {
+	color: #BF97BF;
+}
+
+
+/*Hall of Statues*/
+
+.main {
+	background-color: #BFBFBF;
+	background-image: url("images/Versailles-Hall-of-Statues.jpg"), url("images/Fountain-Statue.jpg"), url("images/Hall-of-Mirrors.jpg");
+	background-size: contain;
+	background-position: 0% 2%, center 50%, center 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/* Grey Blocks*/
+
+div.preamble {
+	width: 85%;
+	margin: 20px auto;
+	padding: 7px;
+	background-color: rgba(100,100,100,.7);
+	box-shadow: 0 5px 5px #3F3F3F;
+}
+
+div.explanation {
+	width: 40%;
+	margin-left: 60%;
+	padding: 7px;
+	background-color: rgba(225,225,225,.7);
+}
+
+div.participation {
+	width: 50%;
+	margin: 3% 0 0 3%;
+	padding: 7px;
+	background-color: rgba(150,150,150,.5);
+}
+
+div.benefits {
+	width: 20%;
+	padding: 7px;
+	margin: -200px 7% 0 0;
+	background-color: rgba(100,100,100,.7);
+	float: right;
+	color: white;
+}
+
+div.requirements {
+	width: 50%;
+	padding: 7px;
+	margin: 15% 0 0 5%;
+	background-color: rgba(200,200,200,.7);
+	float: left;
+}
+
+footer {
+	clear: both;
+}
+
+
+/*Fountain Statue photograph CC license by Tammy Lo
+Gardens of Versailles photograph CC license by Tammy Lo
+Hall of Statues CC License by Victor Grigas*/
